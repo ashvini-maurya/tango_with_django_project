@@ -1,0 +1,15 @@
+{% extends 'rango/base.html' %}
+
+{% load staticfiles %}
+
+{% block title %}{{ category_name }}{% endblock %}
+
+
+{% block body_block %}
+    <h1>RANGO </h1>
+    hi....Rango says here is the about page
+    <img src="/static/images/rango.jpg" alt="Picture of flirty rango." />
+
+<p> visits: {{ visits }}</p>
+
+{% endblock %}
